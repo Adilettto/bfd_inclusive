@@ -1,6 +1,6 @@
 import React from "react";
-import Exports from "../components/Exports";
-import GetDiscount from "../components/GetDiscount";
+import GetDiscount from "../components/GetDiscount/GetDiscount";
+import Exports from "../components/Exports/Exports";
 
 const Homepage = () => {
   return (

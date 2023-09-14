@@ -8,7 +8,7 @@ const Exports = () => {
     <div className={styles["exports"]}>
       <img className={styles["left-web"]} src={web1} alt="web" />
       <button className={styles["locations-btn"]}>
-        Discout Fuel Locations
+        Discount Fuel Locations
       </button>
 
       <img className={styles["right-web"]} src={web2} alt="web" />

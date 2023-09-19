@@ -1,0 +1,61 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #6631ff;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+.h_hor {
+  border-bottom: 3px solid #6631ff;
+  width: 1030px;
+  margin: auto;
+}
+.h_vert {
+  border-left: 3px solid #6631ff;
+  height: 120px;
+  position: absolute;
+  left: 25%;
+  margin-left: -3px;
+  top: 203px;
+}
+
+.h_vert1 {
+  border-left: 3px solid #6631ff;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 203px;
+}
+.h_vert2 {
+  border-left: 3px solid #6631ff;
+  height: 120px;
+  position: absolute;
+  left: 75%;
+  margin-left: -3px;
+  top: 203px;
+}
+
+.h2 {
+  font-weight: bold;
+}
+.card {
+  margin-top: 117px;
+  border: 2px solid grey;
+  width: 20%;
+  margin-left: 184px;
+}
+.card1 {
+  margin-top: -190px;
+  border: 2px solid grey;
+  width: 20%;
+  margin-left: 40%;
+}
+.card2 {
+  margin-top: -190px;
+  border: 2px solid grey;
+  width: 20%;
+  margin-left: 65%;
+}

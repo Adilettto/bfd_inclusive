@@ -1,0 +1,26 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+.topnav {
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #6631ff;
+  text-decoration: underline;
+}
+
+.logo {
+  padding-left: 20px;
+}

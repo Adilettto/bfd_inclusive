@@ -3,6 +3,7 @@ import fileIcon from "./Coupon 1.png";
 import styles from "./GetDiscount.module.scss";
 
 const GetDiscount = () => {
+
   return (
     <div className={styles.discount}>
       <h2 className={styles.discount__header}>Get a discount</h2>
@@ -11,6 +12,7 @@ const GetDiscount = () => {
         equipment.
       </p>
       <div className={styles.discount__container}>
+        {/* TODO: create DiscountCard, show with Array.map(), photo -> Assets, ant-design: Row, Col, Button */}
         <div className={styles.card}>
           <img className={styles.card__icon} src={fileIcon} alt="file-icon" />
           <p className={styles.card__percent}>5%</p>

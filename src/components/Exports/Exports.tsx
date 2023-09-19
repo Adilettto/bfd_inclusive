@@ -6,12 +6,13 @@ import web2 from "./web2.png";
 const Exports = () => {
   return (
     <div className={styles.exports}>
-      <img className={styles.exports__left_web} src={web1} alt="web" />
+      {/* use camelCase, photo -> Assets */}
+      <img className={styles.exports__leftWeb} src={web1} alt="web" />
       <button className={styles.exports__locations_btn}>
         Discount Fuel Locations
       </button>
 
-      <img className={styles.exports__right_web} src={web2} alt="web" />
+      <img className={styles.exports__rightWeb} src={web2} alt="web" />
       <button className={styles.exports__shops_btn}>Truck repair shops</button>
     </div>
   );

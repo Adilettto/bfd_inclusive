@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "../assets/Card.png";
 import "./aboutCards.style.css";
-import { SplitText } from "@cyriacbr/react-split-text";
+// import { SplitText } from "@cyriacbr/react-split-text";
 
 function AboutCards() {
   return (
+    // TODO: change style file name
     <div className="aboutcards">
       <div className="text-content">
         <h2>About cards</h2>

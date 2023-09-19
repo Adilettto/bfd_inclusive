@@ -1,3 +1,14 @@
+.navBar {
+  background-color: red;
+  &__nav {
+    color: blue;
+
+    &:hover {
+      color: #44dd44;
+    }
+  }
+}
+
 * {
   font-family: "Manrope", sans-serif;
 }

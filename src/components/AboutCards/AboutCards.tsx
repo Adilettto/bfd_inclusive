@@ -1,10 +1,10 @@
 import Card from "../assets/Card.png";
-import "./aboutCards.style.scss";
-
+import styles from './AboutCards.module.scss';
 function AboutCards() {
   return (
-    // TODO: change style file name
-    <div className="main">
+    // TODO: change style file name,
+    // styles.main
+    <div className={styles.main}>
       <div className="main__paragraph">
         <h2>About cards</h2>
         <h3>

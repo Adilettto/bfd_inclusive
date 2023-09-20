@@ -9,12 +9,11 @@
   font-size: 1rem;
   margin: 4rem 6rem;
   gap: 60px;
-
-  h2 {
+  & h2 {
     color: $osnova;
   }
 
-  .main__paragraph {
+  &__paragraph {
     flex: 1;
     text-align: left;
     width: 55%;

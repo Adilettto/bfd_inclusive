@@ -12,7 +12,17 @@
 
   &:hover {
     color: $osnova;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+  &__link {
+      color: black;
+      &:hover {
+        color: $osnova;
+      }
+      &_active {
+        color: $osnova;
+      }
+
   }
 }
 .navBar__nav {
@@ -25,8 +35,10 @@
     list-style: none;
     display: flex;
     gap: 20px;
+
+    }
   }
-}
+
 
 .logo {
   padding-left: 20px;

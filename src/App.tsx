@@ -1,13 +1,20 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
+import { Route, Routes } from "react-router-dom";
 import Advantage from "./components/Advantage/Advantage";
-import AboutCards from "./components/AboutCards/AboutCards";
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <Routes>
+        <Route path="/" element={<Advantage />} />
+        <Route path="/home" element={<Advantage />} />
+        <Route path="/apply" element={<NavBar />} />
+        <Route path="/contacts" element={<NavBar />} />
+        <Route path="/discount" element={<NavBar />} />
+      </Routes>
+
     </div>
   );
 }

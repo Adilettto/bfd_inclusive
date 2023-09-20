@@ -3,7 +3,7 @@ import styles from './AdvantageCard.module.scss';
 
 type AdvantageCardProps = {
   title: string,
-  list: string[]
+  list: string[],
 };
 
 const AdvantageCard: React.FC<AdvantageCardProps> = ({ title, list }) => {
@@ -13,8 +13,8 @@ const AdvantageCard: React.FC<AdvantageCardProps> = ({ title, list }) => {
       {title}
     </h2>
     <ul>
-      {list.map((l) => <li>
-        {l}
+      {list.map((listElement) => <li>
+        {listElement}
       </li>)}
     </ul>
   </div>

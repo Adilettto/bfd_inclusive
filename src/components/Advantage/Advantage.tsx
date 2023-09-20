@@ -1,5 +1,6 @@
 import "./Advantage.module.scss";
 import AdvantageCard from "../AdvantageCard/AdvantageCard";
+import styles from './Advantage.module.scss';
 
 function Advantage() {
   const cards = [
@@ -27,15 +28,23 @@ function Advantage() {
         "eum rem voluptates eius modi similique",
       ],
     },
+    {
+      title: "Lorem ipsum",
+      list: [
+        "dolor sit amet consectetur adipisicing elit.",
+        "Pariatur reprehenderit id sed dignissimos",
+        "eum rem voluptates eius modi similique",
+      ],
+    },
   ];
   return (
-    <div className="h">
+    <div className={styles.h}>
       <h1>Advantages</h1>
       <p>
         We offer wide range of fule cards for various types of machinery and
         equipment.
       </p>
-      <div className="h_hor"></div>
+      <div className={styles.h_hor}></div>
       <div className="h_vert"></div>
       <div className="h_vert1"></div>
       <div className="h_vert2"></div>

@@ -1,13 +1,11 @@
-import React from "react";
 import Card from "../assets/Card.png";
-import "./aboutCards.style.css";
-// import { SplitText } from "@cyriacbr/react-split-text";
+import "./aboutCards.style.scss";
 
 function AboutCards() {
   return (
     // TODO: change style file name
-    <div className="aboutcards">
-      <div className="text-content">
+    <div className="main">
+      <div className="main__paragraph">
         <h2>About cards</h2>
         <h3>
           Fuel cards are payment cards that are used to purchase fuel for a
@@ -33,7 +31,7 @@ function AboutCards() {
         </p>
       </div>
       <div className="image">
-        <img src={Card} className="info-card" alt="card" />
+        <img src={Card} className="image__info" alt="card" />
       </div>
     </div>
   );

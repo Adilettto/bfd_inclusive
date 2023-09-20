@@ -1,35 +1,31 @@
+@import "../../styles/variablies.scss";
+
 .navBar {
-  background-color: red;
-  &__nav {
-    color: blue;
-
-    &:hover {
-      color: #44dd44;
-    }
-  }
-}
-
-* {
-  font-family: "Manrope", sans-serif;
-}
-.topnav {
+  list-style: none;
+  font-family: $monroe;
   display: flex;
   max-width: 100%;
   flex-direction: row;
   overflow: hidden;
   justify-content: space-between;
-}
-.topnav a {
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+  margin: 10px 5px;
 
-.topnav a:hover {
-  color: #6631ff;
-  text-decoration: underline;
+  &:hover {
+    color: $osnova;
+    text-decoration: underline;
+  }
+}
+.navBar__nav {
+  ul {
+    color: $black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .logo {

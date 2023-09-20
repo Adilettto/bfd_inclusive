@@ -1,26 +1,25 @@
-import React from "react";
 import logo from "../assets/logo.png";
-import styles from './Navbar.module.scss';
+import styles from "./Navbar.module.scss";
 function NavBar() {
   // TODO Ant-design, sass, styles - classNames
-  const navbar = ['discount', 'apply'];
+
+  const navbar = [
+    { id: 1, label: "Fuel Card", link: "/home" },
+    { id: 2, label: "Discount", link: "/discount" },
+    { id: 3, label: "Apply for Card", link: "/apply" },
+    { id: 4, label: "Contacts", link: "/contacts" },
+  ];
+  // {/* TODO react-router Link, show with array */}
   return (
     <div className={styles.navBar}>
       <img src={logo} className="logo" alt="logo" />
       <div className={styles.navBar__nav}>
         <ul>
-          {/* {navbar.map((nav) => (
-            <a className="active" href="home">
-            Fuel card
-          </a>
-          ))} */}
-          {/* TODO react-router Link, show with array */}
-          <a className="active" href="home">
-            Fuel card
-          </a>
-          <a href="discount">Discount</a>
-          <a href="apply">Apply for Card</a>
-          <a href="contacts">Contacts</a>
+          {navbar.map((nav) => (
+            <li key={nav.id}>
+              <a href={nav.link}>{nav.label}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

@@ -1,19 +1,21 @@
+@import "../../styles/variablies.scss";
+
 h1 {
   display: flex;
   justify-content: center;
-  color: #6631ff;
+  color: $osnova;
 }
 p {
   display: flex;
   justify-content: center;
 }
 .h_hor {
-  border-bottom: 3px solid #6631ff;
+  border-bottom: 3px solid $osnova;
   width: 1030px;
   margin: auto;
 }
 .h_vert {
-  border-left: 3px solid #6631ff;
+  border-left: 3px solid $osnova;
   height: 120px;
   position: absolute;
   left: 25%;
@@ -22,7 +24,7 @@ p {
 }
 
 .h_vert1 {
-  border-left: 3px solid #6631ff;
+  border-left: 3px solid $osnova;
   height: 120px;
   position: absolute;
   left: 50%;
@@ -30,7 +32,7 @@ p {
   top: 203px;
 }
 .h_vert2 {
-  border-left: 3px solid #6631ff;
+  border-left: 3px solid $osnova;
   height: 120px;
   position: absolute;
   left: 75%;
@@ -43,19 +45,19 @@ p {
 }
 .card {
   margin-top: 117px;
-  border: 2px solid grey;
+  border: 2px solid $grey;
   width: 20%;
   margin-left: 184px;
 }
 .card1 {
   margin-top: -190px;
-  border: 2px solid grey;
+  border: 2px solid $grey;
   width: 20%;
   margin-left: 40%;
 }
 .card2 {
   margin-top: -190px;
-  border: 2px solid grey;
+  border: 2px solid $grey;
   width: 20%;
   margin-left: 65%;
 }

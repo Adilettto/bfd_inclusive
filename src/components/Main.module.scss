@@ -4,57 +4,57 @@
   flex-direction: column;
   gap: 54px;
 
-  .main-img {
+  &_img {
     object-fit: cover;
     max-width: 100%;
   }
 
-  .main-text {
+  &_text {
     max-width: 432px;
     max-height: 136px;
     font-weight: 500;
     font-size: 50px;
     line-height: 60px;
 
-    .main-text-first {
+    &_textFirst {
       color: #6631ff;
     }
   }
   
   
   
-  .main-btns {
+  &_btns {
     display: flex;
     flex-direction: row;
+  }
 
-    .main-btn {
-      // font-family: Manrope;
-      font-size: 16px;
-      font-weight: 400;
-      padding: 10px 40px;
-    
-      max-width: 221px;
-      max-height: 44px;
-      border: none;
-      color: #fff;
-    }
-    
-    .request-btn {
-      background-color: #6631ff;
-      margin-right: 30px;
-    }
-    
-    .apply-btn {
-      border: 1px solid #6631ff;
-      color: #6631ff;
-      background-color: #fff;
-      margin-right: 150px;
-    }
+  &_btn {
+    // font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 40px;
+  
+    max-width: 221px;
+    max-height: 44px;
+    border: none;
+    color: #fff;
+  }
+  
+  &_requestBtn {
+    background-color: #6631ff;
+    margin-right: 30px;
+  }
+  
+  &_applyBtn {
+    border: 1px solid #6631ff;
+    color: #6631ff;
+    background-color: #fff;
+    margin-right: 150px;
   }
   
 
   
-  .p-text {
+  &_pText {
     max-width: 366px;
     max-height: 48px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

@@ -44,24 +44,25 @@
   .h2 {
     font-weight: bold;
   }
-  .card {
-    margin-top: 117px;
+
+}
+.card {
+  margin-top: 117px;
+  border: 2px solid $grey;
+  width: 20%;
+  margin-left: 184px;
+  gap: 20px;
+
+  .card-1 {
+    margin-top: -190px;
     border: 2px solid $grey;
     width: 20%;
-    margin-left: 184px;
-    gap: 20px;
-
-    .card-1 {
-      margin-top: -190px;
-      border: 2px solid $grey;
-      width: 20%;
-      margin-left: 40%;
-    }
-    .card-2 {
-      margin-top: -190px;
-      border: 2px solid $grey;
-      width: 20%;
-      margin-left: 65%;
-    }
+    margin-left: 40%;
+  }
+  .card-2 {
+    margin-top: -190px;
+    border: 2px solid $grey;
+    width: 20%;
+    margin-left: 65%;
   }
 }

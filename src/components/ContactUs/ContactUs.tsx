@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./contactUs.module.scss";
+import Input from "../UI/Input/Input";
 
 function ContactUs() {
   const defaultData = {
@@ -17,6 +18,10 @@ function ContactUs() {
 
       <h1>Submit a request for fuel card</h1>
       <form>
+        <Input
+          label="Name"
+          placeholder="BFD Chan"
+        />
         <label htmlFor="name">Name</label>
         <input name="Name" placeholder="BFD Chan" />
         <label htmlFor="number">Number</label>

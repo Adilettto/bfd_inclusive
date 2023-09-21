@@ -22,54 +22,5 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-
-    .card {
-      max-width: 230px;
-      height: 349px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border: 1px solid var(--osnova, #d6d6d6);
-      background: #fefefe;
-      padding: 10px;
-
-      &__icon {
-        margin-top: 34px;
-      }
-
-      &__percent {
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-      }
-
-      &__desc_text {
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 500;
-        text-align: center;
-        height: 88px;
-      }
-
-      &__detail_info_btn {
-        border: 1px solid #6631ff;
-        background-color: #fefefe;
-        color: #6631ff;
-        width: 210px;
-        height: 39px;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        margin-top: 20px;
-      }
-
-      &:hover {
-        border-color: #6631ff;
-        .card__detail_info_btn {
-          background-color: #6631ff;
-          color: #fff;
-        }
-      }
-    }
   }
 }

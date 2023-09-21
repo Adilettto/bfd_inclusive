@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Exports.module.scss";
-import web1 from "./Web-1.png";
-import web2 from "./web2.png";
+import web1 from "../../assets/Web-1.png";
+import web2 from "../../assets/web2.png";
 
 const Exports = () => {
   return (

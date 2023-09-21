@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import styles from "./Navbar.module.scss";
-import cn from 'classnames';
+// import cn from 'classnames';
 import { Link } from "react-router-dom";
 import AdvantageCard from "../AdvantageCard/AdvantageCard";
 function NavBar() {
@@ -22,10 +22,15 @@ function NavBar() {
         <ul>
           {navbar.map((nav) => (
             <li key={nav.id} onClick={() => setActiveTab(nav.id)}>
-              <Link to={nav.link} className={cn(
-                styles.navBar__link,
-                activeTab === nav.id && styles.navBar__link_active
-              )}>{nav.label}</Link>
+              <Link
+                to={nav.link}
+                className={`
+                  styles.navBar__link,
+                  ${activeTab === nav.id ? 'styles.navBar__link_active' : ''}
+                `}
+              >
+                {nav.label}
+              </Link>
             </li>
           ))}
         </ul>

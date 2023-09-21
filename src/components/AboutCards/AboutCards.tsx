@@ -5,7 +5,7 @@ function AboutCards() {
     // TODO: change style file name,
     // styles.main
     <div className={styles.main}>
-      <div className="main__paragraph">
+      <div className="styles.main__paragraph">
         <h2>About cards</h2>
         <h3>
           Fuel cards are payment cards that are used to purchase fuel for a
@@ -30,8 +30,8 @@ function AboutCards() {
           fuel costs.
         </p>
       </div>
-      <div className="image">
-        <img src={Card} className="image__info" alt="card" />
+      <div className="styles.image">
+        <img src={Card} className="styles.image__info" alt="card" />
       </div>
     </div>
   );

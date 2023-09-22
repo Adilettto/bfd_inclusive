@@ -1,0 +1,18 @@
+.btn {
+  &__contained {
+    border: 1px solid #6631ff;
+    background-color: #fefefe;
+    color: #6631ff;
+    width: 210px;
+    height: 39px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+
+    &:hover {
+      background-color: #6631ff;
+      color: #fff !important;
+    }
+  }
+}

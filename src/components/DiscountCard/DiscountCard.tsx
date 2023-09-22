@@ -1,5 +1,6 @@
 import styles from "./DiscountCard.module.scss";
 import percentIcon from "../../assets/percentIcon.png";
+import { Button } from "antd";
 
 interface DiscountCardProps {
   description: string;
@@ -16,7 +17,7 @@ const DiscountCard: React.FC<DiscountCardProps> = ({ description }) => {
           <p className={styles.discountCard__descText}>
             {description}
           </p>
-          <button className={styles.discountCard__detailInfoBtn}>Detail info</button>
+          <Button className={styles.discountCard__detailInfoBtn}>Detail info</Button>
         </div>
         </div>
     )

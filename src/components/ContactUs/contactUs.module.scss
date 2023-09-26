@@ -2,7 +2,8 @@
 
 .contactUs {
   background-image: url("../assets/background.png");
-
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   background-size: cover;
@@ -10,18 +11,17 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 570px;
+  height: 100%;
 
   position: relative;
   isolation: isolate;
 
   &__info {
-    //
     float: left;
     position: relative;
     text-align: center;
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-left: 15%;
+    padding-top: 15%;
     margin-top: 12px;
   }
   &__callButton {

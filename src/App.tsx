@@ -1,9 +1,7 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
-import { Form, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Advantage from "./components/Advantage/Advantage";
-import AboutCards from "./components/AboutCards/AboutCards";
 import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {

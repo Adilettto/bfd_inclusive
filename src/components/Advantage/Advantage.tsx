@@ -41,9 +41,10 @@ function Advantage() {
       <div className={styles.h__vert1}></div>
       <div className={styles.h__vert2}></div>
       {/* TODO: create component AdvantageCard, change file name, show */}
+      {/* TODO: styles of cards for position here  */}
       <div className={styles.card}>
-        {cards.map((card) => (
-          <AdvantageCard title={card.title} list={card.list} />
+        {cards.map((card, i) => (
+          <AdvantageCard title={card.title} list={card.list} className={styles[`card-${i}`]} />
         ))}
       </div>
     </div>

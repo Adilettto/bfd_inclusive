@@ -2,6 +2,7 @@
 @import "../../styles/mixins.scss";
 .h {
   @extend %container;
+  position: relative;
   h1 {
     display: flex;
     justify-content: center;
@@ -44,7 +45,6 @@
   }
   .card {
     margin-top: 117px;
-    border: 2px solid #d6d6d6;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -53,16 +53,16 @@
     align-items: center;
 
     .card-1 {
-      margin-top: -190px;
-      border: 2px solid $grey;
-      width: 20%;
+      margin-top: 20px;
       margin-left: 75px;
     }
     .card-2 {
-      margin-top: -190px;
-      border: 2px solid $grey;
-      width: 20%;
-      margin-left: 65%;
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+    .card-3 {
+      margin-top: 20px;
+      margin-left: 75px;
     }
 
     .h2 {

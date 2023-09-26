@@ -1,3 +1,7 @@
+@import '../../styles/variablies.scss';
 .card {
-  width: 150px;
+  width: 250px;
+  padding: 20px;
+  border: 2px solid $grey;
+  display: inline-block;
 }

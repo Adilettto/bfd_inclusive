@@ -44,7 +44,7 @@ function Advantage() {
       {/* TODO: styles of cards for position here  */}
       <div className={styles.card}>
         {cards.map((card, i) => (
-          <AdvantageCard title={card.title} list={card.list} className={styles[`card-${i}`]} />
+          <AdvantageCard title={card.title} list={card.list} className={styles[`card-${i + 1}`]} />
         ))}
       </div>
     </div>

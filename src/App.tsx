@@ -1,11 +1,14 @@
-import React from 'react';
-import './App.css';
-import Main from './components/Main';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
     </div>
   );
 }

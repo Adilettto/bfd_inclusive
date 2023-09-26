@@ -21,7 +21,7 @@
     position: absolute;
     left: 25%;
     margin-left: -3px;
-    top: 123px;
+    top: 49px;
   }
 
   &__vert1 {
@@ -30,7 +30,7 @@
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 123px;
+    top: 49px;
   }
   &__vert2 {
     border-left: 3px solid $osnova;
@@ -38,30 +38,33 @@
     position: absolute;
     left: 75%;
     margin-left: -3px;
-    top: 123px;
-  }
-
-  .h2 {
-    font-weight: bold;
+    top: 49px;
   }
   .card {
     margin-top: 117px;
-    border: 2px solid $grey;
-    width: 20%;
-    margin-left: 184px;
-    gap: 20px;
+    border: 2px solid #d6d6d6;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14px;
+    margin: 119px auto;
+    align-items: center;
 
     .card-1 {
       margin-top: -190px;
       border: 2px solid $grey;
       width: 20%;
-      margin-left: 40%;
+      margin-left: 75px;
     }
     .card-2 {
       margin-top: -190px;
       border: 2px solid $grey;
       width: 20%;
       margin-left: 65%;
+    }
+
+    .h2 {
+      font-weight: bold;
     }
   }
 }

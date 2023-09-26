@@ -1,34 +1,19 @@
 import React from "react";
 import styles from "./contactUs.module.scss";
+import RequestForm from "../Form/RequestForm";
 
 function ContactUs() {
-  const defaultData = {
-    Name: "",
-    Number: "",
-    CompanyName: "",
-    Email: "",
-  };
   return (
     <div className={styles.contactUs}>
-      <h1>Contact us</h1>
-      <h2>Contact us for quick consultation</h2>
-      <p>1-888-579-1240</p>
-      <button className={styles.callButton}>Call now</button>
-
-      <h1>Submit a request for fuel card</h1>
-      <form>
-        <label htmlFor="name">Name</label>
-        <input name="Name" placeholder="BFD Chan" />
-        <label htmlFor="number">Number</label>
-        <input name="Number" placeholder="+" />
-        <label htmlFor="companyName">Company Name</label>
-        <input name="CompanyName" placeholder="BFD" />
-        <label htmlFor="email">Email</label>
-        <input name="Email" placeholder="bfdfurl@gmail.com" />
-        <div>
-          <button type="submit">Send</button>
-        </div>
-      </form>
+      <div className={styles.contactUs__info}>
+        <h2>Contact us</h2>
+        <h3>Contact us for quick consultation</h3>
+        <p>1-888-579-1240</p>
+        <button className={styles.contactUs__callButton}>Call now</button>
+      </div>
+      <div>
+        <RequestForm />
+      </div>
     </div>
   );
 }

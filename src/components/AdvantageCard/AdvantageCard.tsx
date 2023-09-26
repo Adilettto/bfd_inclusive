@@ -10,11 +10,13 @@ const AdvantageCard: React.FC<AdvantageCardProps> = ({ title, list }) => {
   return (
     <div className={styles.card}>
       <h2 className={styles.card__title}>{title}</h2>
-      <ul>
-        {list.map((listElement) => (
-          <li>{listElement}</li>
-        ))}
-      </ul>
+      <div className={styles.card__list}>
+        <ul>
+          {list.map((listElement) => (
+            <li>{listElement}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

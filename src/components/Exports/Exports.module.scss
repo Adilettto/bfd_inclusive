@@ -1,7 +1,10 @@
+@import '../../styles/mixins.scss';
+
 .exports {
+  @extend %container;
+
   display: flex;
   // flex-direction: row;
-  margin: 100px;
   justify-content: space-around;
   position: relative;
 

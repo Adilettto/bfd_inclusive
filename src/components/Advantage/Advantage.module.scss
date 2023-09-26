@@ -1,5 +1,7 @@
 @import "../../styles/variablies.scss";
+@import "../../styles/mixins.scss";
 .h {
+  @extend %container;
   h1 {
     display: flex;
     justify-content: center;

@@ -1,13 +1,13 @@
 @import "../../styles/variablies.scss";
+@import "../../styles/mixins.scss";
 
 .main {
+  @extend %container;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
   font-size: 1rem;
-  margin: 4rem 6rem;
   gap: 60px;
   & h2 {
     color: $osnova;

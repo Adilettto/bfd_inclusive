@@ -1,5 +1,6 @@
+@import '../styles/mixins.scss';
 .main {
-  max-width: 1240px;
+  @extend %container;
   display: flex;
   flex-direction: column;
   gap: 54px;
@@ -20,9 +21,9 @@
       color: #6631ff;
     }
   }
-  
-  
-  
+
+
+
   &__btns {
     display: flex;
     flex-direction: row;
@@ -33,27 +34,27 @@
     font-size: 16px;
     font-weight: 400;
     padding: 10px 40px;
-  
+
     max-width: 221px;
     max-height: 44px;
     border: none;
     color: #fff;
   }
-  
+
   &__requestBtn {
     background-color: #6631ff;
     margin-right: 30px;
   }
-  
+
   &__applyBtn {
     border: 1px solid #6631ff;
     color: #6631ff;
     background-color: #fff;
     margin-right: 150px;
   }
-  
 
-  
+
+
   &__pText {
     max-width: 366px;
     max-height: 48px;

@@ -1,0 +1,47 @@
+@import "../../styles/variablies.scss";
+
+.contactUs {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  isolation: isolate;
+
+  &__info {
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 15%;
+    margin-top: 12px;
+  }
+  &__callButton {
+    width: 146px;
+
+    height: 37px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 12px;
+  }
+}
+
+.contactUs::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: $osnova;
+  opacity: 0.2;
+  // background-image: url("../assets/Rectangle\ 115.png");
+}

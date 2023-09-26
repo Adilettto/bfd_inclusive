@@ -1,0 +1,45 @@
+@import "../../styles/variablies.scss";
+
+.navBar {
+  list-style: none;
+  font-family: $monroe;
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 10px 5px;
+
+  &:hover {
+    color: $osnova;
+    text-decoration: none;
+  }
+  &__link {
+      color: black;
+      &:hover {
+        color: $osnova;
+      }
+      &_active {
+        color: $osnova;
+      }
+
+  }
+}
+.navBar__nav {
+  ul {
+    color: $black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    }
+  }
+
+
+.logo {
+  padding-left: 20px;
+}

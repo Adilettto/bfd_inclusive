@@ -18,9 +18,13 @@
       color: black;
       &:hover {
         color: $osnova;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $osnova;
       }
       &_active {
         color: $osnova;
+        padding-bottom: 5px;
+        border-bottom: 2px solid $osnova;
       }
 
   }
@@ -35,7 +39,9 @@
     list-style: none;
     display: flex;
     gap: 20px;
-
+    & a {
+      text-decoration: none;
+    }
     }
   }
 

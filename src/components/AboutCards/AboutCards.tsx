@@ -11,7 +11,7 @@ function AboutCards() {
           Fuel cards are payment cards that are used to purchase fuel for a
           fleet of vehicles.
         </h3>
-        <p>
+        <p className={styles.main__p}>
           The US Fuel Systems Card is an excellent option for Owner operators
           and Small Trucking Companies who want to manage their fuel expenses
           wisely. This fuel card helps to save money on fuel costs by offering

@@ -3,14 +3,19 @@
 .h {
   @extend %container;
   position: relative;
+  margin-top: 50px;
+
   h1 {
     display: flex;
     justify-content: center;
     color: $osnova;
+    font-size: 28px;
+    margin-top: 20px;
   }
   p {
     display: flex;
     justify-content: center;
+    margin: 5px;
   }
 
   &__hor {
@@ -24,7 +29,7 @@
     position: absolute;
     left: 25%;
     margin-left: -3px;
-    top: 49px;
+    top: 63px;
   }
 
   &__vert1 {
@@ -33,7 +38,7 @@
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 49px;
+    top: 63px;
   }
   &__vert2 {
     border-left: 3px solid $osnova;
@@ -41,7 +46,7 @@
     position: absolute;
     left: 75%;
     margin-left: -3px;
-    top: 49px;
+    top: 63px;
   }
   .card {
     margin-top: 117px;
@@ -51,18 +56,20 @@
     gap: 14px;
     margin: 119px auto;
     align-items: center;
+    font-size: 16px;
 
     .card-1 {
-      margin-top: 20px;
-      margin-left: 75px;
+      margin-top: -3px;
+      margin-left: 23px;
+
     }
     .card-2 {
-      margin-top: 20px;
-      margin-left: 75px;
+      margin-top: -3px;
+      margin-left: 17px;
     }
     .card-3 {
-      margin-top: 20px;
-      margin-left: 75px;
+      margin-top: -3px;
+      margin-left: 26px;
     }
 
     .h2 {

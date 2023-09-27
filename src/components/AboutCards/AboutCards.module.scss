@@ -9,14 +9,28 @@
   align-items: center;
   font-size: 1rem;
   gap: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   & h2 {
     color: $osnova;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  & h3 {
+    margin-bottom: 24px;
+  }
+
+  &__p {
+    margin-bottom: 20px;
   }
 
   &__paragraph {
     flex: 1;
     text-align: left;
     width: 55%;
+    padding: 20px;
+
   }
 }
 .image {

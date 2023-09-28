@@ -1,9 +1,7 @@
-import Card from "../assets/Card.png";
-import styles from './AboutCards.module.scss';
+import Card from "../../assets/Card.png";
+import styles from "./AboutCards.module.scss";
 function AboutCards() {
   return (
-    // TODO: change style file name,
-    // styles.main
     <div className={styles.main}>
       <div className="styles.main__paragraph">
         <h2>About cards</h2>
@@ -11,7 +9,7 @@ function AboutCards() {
           Fuel cards are payment cards that are used to purchase fuel for a
           fleet of vehicles.
         </h3>
-        <p>
+        <p className={styles.main__p}>
           The US Fuel Systems Card is an excellent option for Owner operators
           and Small Trucking Companies who want to manage their fuel expenses
           wisely. This fuel card helps to save money on fuel costs by offering

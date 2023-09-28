@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./GetDiscount.module.scss";
 import DiscountCard from "../DiscountCard/DiscountCard";
 
@@ -6,8 +5,9 @@ const GetDiscount = () => {
   const discountData = [
     {
       id: 1,
-      description: "Average of 35-90 cents/gal. discount on selected locations " +
-      "(over 700 truck stops)",
+      description:
+        "Average of 35-90 cents/gal. discount on selected locations " +
+        "(over 700 truck stops)",
     },
     {
       id: 2,
@@ -31,20 +31,12 @@ const GetDiscount = () => {
         equipment.
       </p>
       <div className={styles.discount__container}>
-        {/* TODO: create DiscountCard, show with Array.map(), photo -> Assets, ant-design: Row, Col, Button */}
         {discountData.map((discount) => (
-          <DiscountCard 
-          key={discount.id}
-          description={discount.description}
-          />
+          <DiscountCard key={discount.id} description={discount.description} />
         ))}
       </div>
     </div>
   );
 };
 
-
-
 export default GetDiscount;
-
-

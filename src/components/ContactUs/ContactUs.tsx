@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./contactUs.module.scss";
 import RequestForm from "../Form/RequestForm";
 

@@ -1,7 +1,7 @@
 @import "../../styles/variablies.scss";
 
 .contactUs {
-  background-image: url("../assets/background.png");
+  background-image: url("../../assets/background.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -44,5 +44,4 @@
   inset: 0;
   background: $osnova;
   opacity: 0.2;
-  // background-image: url("../assets/Rectangle\ 115.png");
 }

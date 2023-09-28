@@ -1,4 +1,3 @@
-import React from "react";
 import AdvantageCard from "../AdvantageCard/AdvantageCard";
 import styles from "./Advantage.module.scss";
 
@@ -40,11 +39,13 @@ function Advantage() {
       <div className={styles.h__vert}></div>
       <div className={styles.h__vert1}></div>
       <div className={styles.h__vert2}></div>
-      {/* TODO: create component AdvantageCard, change file name, show */}
-      {/* TODO: styles of cards for position here  */}
       <div className={styles.card}>
         {cards.map((card, i) => (
-          <AdvantageCard title={card.title} list={card.list} className={styles[`card-${i + 1}`]} />
+          <AdvantageCard
+            title={card.title}
+            list={card.list}
+            className={styles[`card-${i + 1}`]}
+          />
         ))}
       </div>
     </div>

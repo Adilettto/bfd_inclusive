@@ -1,10 +1,9 @@
-@import '../../styles/mixins.scss';
+@import "../../styles/mixins.scss";
 
 .exports {
   @extend %container;
 
   display: flex;
-  // flex-direction: row;
   justify-content: space-around;
   position: relative;
   margin-bottom: 50px;
@@ -14,7 +13,6 @@
     object-fit: cover;
     max-width: 458px;
     max-height: 447px;
-    // flex-shrink: 0;
   }
 
   &__locations_btn,
@@ -22,7 +20,7 @@
     position: absolute;
     border-radius: 16px;
     border: none;
-    background: #575475; // from variables
+    background: #575475;
     height: 102px;
     padding: 16px 42px;
     color: #fff;

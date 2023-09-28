@@ -1,9 +1,7 @@
-import Card from "../assets/Card.png";
-import styles from './AboutCards.module.scss';
+import Card from "../../assets/Card.png";
+import styles from "./AboutCards.module.scss";
 function AboutCards() {
   return (
-    // TODO: change style file name,
-    // styles.main
     <div className={styles.main}>
       <div className="styles.main__paragraph">
         <h2>About cards</h2>

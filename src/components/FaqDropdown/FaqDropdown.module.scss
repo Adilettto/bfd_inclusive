@@ -1,12 +1,13 @@
+@import '../../styles/variablies.scss';
+
 .dropdown {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid #6631FF;
-    height: 2.5rem;
+    border-bottom: 2px solid $osnova;
+    padding-bottom: 20px;
     width: 705px;
     padding-left: 1rem;
     margin-top: 0.5rem;
-    
 
     &__q {
         display: flex;
@@ -15,11 +16,7 @@
     }
 
     &__answer {
-        max-width: 0;
-        overflow: hidden;
-    }
-
-    &.active &__answer {
-        max-height: 300px;
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }

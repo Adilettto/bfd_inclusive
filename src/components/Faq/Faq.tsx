@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Faq.module.scss";
-import { DownOutlined, UpOutlined } from "@ant-design/icons";
 import FaqDropdown from "../FaqDropdown/FaqDropdown";
 
 const Faq = () => {
- 
+
 
   return (
     <div className={styles.faq}>
@@ -23,12 +22,12 @@ const Faq = () => {
       </div>
 
       <div className={styles.faq__dropdowns}>
-        <FaqDropdown/>
-        <FaqDropdown/>
-        <FaqDropdown/>
-        <FaqDropdown/>
-        <FaqDropdown/>
-        <FaqDropdown/>
+        <FaqDropdown />
+        <FaqDropdown />
+        <FaqDropdown />
+        <FaqDropdown />
+        <FaqDropdown />
+        <FaqDropdown />
       </div>
     </div>
   );

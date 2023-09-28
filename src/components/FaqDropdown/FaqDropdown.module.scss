@@ -1,0 +1,22 @@
+@import '../../styles/variablies.scss';
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid $osnova;
+    padding-bottom: 20px;
+    width: 705px;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+
+    &__q {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    &__answer {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}

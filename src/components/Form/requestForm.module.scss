@@ -1,26 +1,25 @@
 @import "../../styles/variablies.scss";
 .f {
   &__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     color: black;
     background-color: white;
     padding: 12px 20px;
-    width: 516px;
+    max-width: 500px;
+    min-width: 420px;
     border-width: 20px;
     border-radius: 8px;
     padding-right: 20px;
-    height: 407px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 95px;
   }
 
   &__button {
     height: 40px;
     border-radius: 8px;
+    width: 100%;
     color: $osnova;
     border-color: $osnova;
-
     background-color: transparent;
   }
 }
@@ -32,7 +31,8 @@ h1 {
 input {
   border-radius: 8px;
   border-color: $purple;
-  width: 470px;
+  width: 100%;
   height: 42px;
   padding: 8px;
+  margin-bottom: 20px;
 }

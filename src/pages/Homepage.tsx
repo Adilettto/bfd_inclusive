@@ -7,6 +7,7 @@ import Advantage from "../components/Advantage/Advantage";
 import AboutCards from "../components/AboutCards/AboutCards";
 import Main from "../components/Main";
 import styles from './HomePage.module.scss';
+import Faq from "../components/Faq/Faq";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <Advantage />
       <GetDiscount />
       <AboutCards />
+      <Faq/>
       <Exports />
       <ContactUs />
     </div>

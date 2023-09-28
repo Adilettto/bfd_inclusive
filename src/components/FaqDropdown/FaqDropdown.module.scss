@@ -1,0 +1,25 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #6631FF;
+    height: 2.5rem;
+    width: 705px;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    
+
+    &__q {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    &__answer {
+        max-width: 0;
+        overflow: hidden;
+    }
+
+    &.active &__answer {
+        max-height: 300px;
+    }
+}

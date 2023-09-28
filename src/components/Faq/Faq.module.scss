@@ -1,0 +1,34 @@
+.faq {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+
+    &__main {
+        width: 240px;
+
+        & h3 {
+            font-size: 28px;
+            color: #6631FF;
+            margin-top: 19px;
+        }
+
+        & h6 {
+            font-size: 16px;
+            margin-top: 19px;
+        }
+
+        & p {
+            font-size: 16px;
+            margin-top: 19px;
+            font-size: 16px;
+        }
+    }
+
+    &__dropdowns {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

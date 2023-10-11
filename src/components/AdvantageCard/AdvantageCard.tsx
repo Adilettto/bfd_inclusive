@@ -19,7 +19,7 @@ const AdvantageCard: React.FC<AdvantageCardProps> = ({
       <div className={styles.card__list}>
         <ul>
           {list.map((listElement) => (
-            <li>{listElement}</li>
+            <li key={listElement}>{listElement}</li>
           ))}
         </ul>
       </div>

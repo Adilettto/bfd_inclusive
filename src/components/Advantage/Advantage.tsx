@@ -4,7 +4,7 @@ import styles from "./Advantage.module.scss";
 function Advantage() {
   const cards = [
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum1",
       list: [
         "dolor sit amet consectetur adipisicing elit.",
         "Pariatur reprehenderit id sed dignissimos",
@@ -12,7 +12,7 @@ function Advantage() {
       ],
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum2",
       list: [
         "dolor sit amet consectetur adipisicing elit.",
         "Pariatur reprehenderit id sed dignissimos",
@@ -20,7 +20,7 @@ function Advantage() {
       ],
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum3",
       list: [
         "dolor sit amet consectetur adipisicing elit.",
         "Pariatur reprehenderit id sed dignissimos",
@@ -45,6 +45,7 @@ function Advantage() {
             title={card.title}
             list={card.list}
             className={styles[`card-${i + 1}`]}
+            key={card.title}
           />
         ))}
       </div>

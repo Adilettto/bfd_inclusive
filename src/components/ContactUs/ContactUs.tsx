@@ -1,5 +1,5 @@
 import styles from "./contactUs.module.scss";
-import RequestForm from "../Form/RequestForm";
+import RequestForm from "../Form/ContactUsForm";
 
 function ContactUs() {
   return (
